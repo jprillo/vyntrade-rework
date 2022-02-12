@@ -30,8 +30,8 @@ class Layout extends React.Component {
 
       
            
-        <footer>         
-          <p style={{color: "hotpink"}}> Vyntrade ©{new Date().getFullYear()}</p>
+        <footer >         
+          <p style={{color: "white"}}> Vyntrade ©{new Date().getFullYear()}</p>
         </footer>
       
       </div>

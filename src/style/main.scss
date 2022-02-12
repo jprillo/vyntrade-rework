@@ -7,7 +7,7 @@
 
 
 section{
-  padding: 80px 15%;
+  padding: 25%;
   min-height:100vh;
 }
 body {
@@ -86,7 +86,7 @@ body.dark {
   .primary-button{
     padding: .5em 1em; 
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
    border: 3px solid $primary-color;
     border-radius: 10px;  
     box-sizing: border-box;
@@ -118,15 +118,58 @@ body.dark {
 
  
 }
+.list{
+ display: flex;
+flex-direction: column;
+height: auto;
+padding: 3em 1em;
+li{
+  font-size: 18px;
+}
+  @include breakpoint(md){
+    justify-content: center;
+    flex-direction: row;
+    height: 70vh;
+    padding: 1em 10%;
+    div{
+      padding: 0 5%;
+    }
+  }
+}
 
+.service-list{
+  ul{
+   list-style-type:circle;
+   li{
+    list-style-type:circle;
+   }
+  }
+}
+.pad{
+  padding: 0 7%;
+  @include breakpoint(md){
+    padding: 0 20%;
+  }
+}
  .align-center{
 text-align: center;
  }
-  
+ .mission{
+  margin: 5% ;
+  padding: 6vh ;
+
+
+  @include breakpoint(md){
+   
+   margin: 15vh 30vw  5ch;
+       
+    }
+
+ } 
 footer{
   text-align: center;
  padding: 1em;
- background-color: var(--bg);
+ background-color: $primary-color;
  font-family: $primary-font;
   a{
     color: $primary-color;
@@ -276,19 +319,37 @@ justify-content: center;
 
 .portfolio-container{
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
+  padding: 0 10%;
+  @include breakpoint(md){
+    flex-direction: row;
+  }
   div {
+    width: 100%;
+      margin: 50px 0;
+    @include breakpoint(md){
       width: 50%;
       margin: 50px 0;
+    }
+    
+  }
+}
+
+.about-image{
+display: none;
+  @include breakpoint(md){
+    display: block;
+   
   }
 }
 
 .about-description{
-  padding: 5%;
+  padding: 12% ;
 }
 .about{
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   @include breakpoint(md){
     flex-direction: row;
 }
@@ -301,7 +362,7 @@ justify-content: center;
 }
 .about-pad{
   @include breakpoint(md){
-    padding: 0 5%;
+    padding:  20%;
 }
 }
 

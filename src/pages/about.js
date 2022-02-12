@@ -5,6 +5,7 @@ export default function About() {
   
   return <div>
     <Layout>
+      <div className="pad">
  <h1>About</h1>
  <p>VYNTRADE was founded in 2018 to offer consulting to Wine & Spirit Industry Companies.​
 VYNTRADE has helped producers find the ‘Route to Market’ most appropriate for their business.​
@@ -19,6 +20,8 @@ VYNTRADE has evolved to offer a ‘Vineyard to Trade’ Direct Wine Sales Distri
  Dan then worked for several California wineries as East Coast Manager and National Sales Manager including EOS Estate Winery, Norman Vineyards and Castoro Cellars.​
  Dan has over 30 years experience in brand marketing and national sales.​
  </p>
+
+ </div>
   </Layout>
     </div>
 }

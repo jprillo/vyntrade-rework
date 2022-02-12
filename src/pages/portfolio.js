@@ -9,6 +9,7 @@ export default function Portfolio() {
   
   return <div>
       <Layout>
+         <div >
 <h1>Portfolio</h1>
 <div className="portfolio-container">
   <div>
@@ -28,6 +29,7 @@ export default function Portfolio() {
 
 
 
+</div>
 </div>
   </Layout>
   </div>

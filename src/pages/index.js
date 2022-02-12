@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from '../components/layout2'
-import { Link } from 'gatsby'
+import { Link, withAssetPrefix } from 'gatsby'
 import background from '../images/hero-background.png'
 import wine from '../images/wine.png'
 import client from '../images/clients.jpg'
@@ -10,18 +10,19 @@ export default function Home() {
   
   return <div>
   <Layout>
-    <div className="hero" style={{textAlign: "center", paddingTop: "100px",height: "100vh",   backgroundImage: "url(" + background + ")"}}>
-   <h1 className="hero-head">VINEYARD<br/> TO TRADE</h1>
-    </div>
-
-    <div className="align-center div-pad">
+    <div className="hero" style={{textAlign: "center", backgroundImage: "url(" + background + ")"}}>
+   <h1 className="hero-head">VINEYARD TO TRADE</h1>
+   <div className="align-center mission" style ={{background: "white"}}>
       <h2>Our Mission</h2>
       <p>Create and Implement Profitable Business Opportunities in the US Wine Market for ​Wine Producers through Direct Sales Strategies to Key Retail Clients.</p>
     </div>
+    </div>
 
-    <div className="about">
-      <div>
-        <img width="100%" src={wine} alt="about us"/>
+  
+
+    <div className="about" >
+      <div className="about-image" style={{overflow: "hidden"}}>
+        <img  height="100%" src={wine} alt="about us"/>
       </div>
       <div className="about-description">
         <h3>About Us</h3>
@@ -35,9 +36,9 @@ export default function Home() {
         <Link className= "primary-button" to ="/portfolio">Learn More</Link>
       </div>
 
-      <div className="align-center about-description" style={{paddingTop: "7em", height: "40vh", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center", backgroundImage: "url(" + client + ")", }}>
+      <div className="align-center about-description" style={{paddingTop: "25vh", height: "60vh", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center", backgroundImage: "url(" + client + ")", }}>
     
-        <Link className= "primary-button"  to ="/clients">Our Clients Success Stories</Link>
+        <Link className= "primary-button"  to ="/clients">Our Clients</Link>
       </div>
    
 
