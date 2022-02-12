@@ -11,9 +11,15 @@ export default function About() {
 VYNTRADE has helped producers find the ‘Route to Market’ most appropriate for their business.​
 VYNTRADE has also developed numerous brand concepts from inception to market implementation.​
 VYNTRADE has evolved to offer a ‘Vineyard to Trade’ Direct Wine Sales Distribution Platform.</p>
- <h2>BACKGROUND​</h2>
+<br/>
+<br/>
+<br/>
+<br/>
+ <h2 style={{textAlign: "left"}}>BACKGROUND​</h2>
  <p>Daniel A Nelson</p>
  <p>President & CEO – VYNTRADE LLC​</p>
+ <br/>
+<br/>
  <p>
  Dan started in the Adult Beverage Industry by working as a Restaurant Manager and Wine Steward at the world renowned Bern’s Steak House. He then moved to the distributor side of the business working for Premier Beverage in Orlando Florida calling on A-list white table cloth restaurants and the top retail accounts.​
  He then moved to the supplier side by working for Paterno Imports where he was promoted from District Manager to Divisional Manager to Regional Manager where he was responsible for over 100 distributors in 18 states.​

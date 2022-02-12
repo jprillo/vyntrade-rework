@@ -46,13 +46,33 @@ body.dark {
   flex-direction: column;
   justify-content: center;
   min-height: 90vh;
+  padding: 3em;
   @include breakpoint(md){
     flex-direction: row;
   }
 
 }
 
+.index-portfolio{
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  div{
+    height: 150px;
+    background: black;
+    margin: 2em 0;
+    width: 100%;
+  }
+  @include breakpoint(md){  
+    flex-direction: row;
+    div{
+      height: 250px;
+      width: 30vw;
+      margin: 2em;
+    }
+  }
 
+}
 .hero-image{
     text-align:center;
     padding: 0 14%;
@@ -84,7 +104,8 @@ body.dark {
    }
   }
   .primary-button{
-    padding: .5em 1em; 
+    background: white;
+    padding: .25em .75em; 
     font-weight: bold;
     font-size: 18px;
    border: 3px solid $primary-color;
@@ -96,17 +117,44 @@ body.dark {
       
     font-family: $primary-font;        
     &:hover{
-        background: $hover-color;     
-        color: black;
+        background: $secondary-color;   
+        color: white;  
+        
         transition:.2s
     }
     &:active{
         box-shadow: .08em .16em .08em rgba(0, 0, 0, 0.55);
     }
     @media (min-width: 1024px) {
-        font-size: 23px;
+        font-size: 20px;
       }
   }
+
+  .secondary-button{
+    padding: .25em .75em; 
+   
+    font-size: 18px;
+   border: 3px solid white;
+    border-radius: 10px;  
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: 500px 0 0 0;   
+    color: white;
+      
+    font-family: $primary-font;        
+    &:hover{
+        background: $secondary-color;     
+       
+        transition:.2s
+    }
+    &:active{
+        box-shadow: .08em .16em .08em rgba(0, 0, 0, 0.55);
+    }
+    @media (min-width: 1024px) {
+        font-size: 20px;
+      }
+  }
+
 .div-pad{
   padding: 5% ;
 
@@ -131,6 +179,9 @@ li{
     flex-direction: row;
     height: 70vh;
     padding: 1em 10%;
+    li{
+      font-size: 20px;
+    }
     div{
       padding: 0 5%;
     }
@@ -138,6 +189,7 @@ li{
 }
 
 .service-list{
+  min-height: 80vh;
   ul{
    list-style-type:circle;
    li{
@@ -146,9 +198,9 @@ li{
   }
 }
 .pad{
-  padding: 0 7%;
+  padding: 0 10% 5%;
   @include breakpoint(md){
-    padding: 0 20%;
+    padding: 0 20% 5%;
   }
 }
  .align-center{
@@ -322,6 +374,7 @@ justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
   padding: 0 10%;
+  min-height: 80vh;
   @include breakpoint(md){
     flex-direction: row;
   }
@@ -407,6 +460,7 @@ font-weight: 700;
 form{
   text-align: center;
   color: var(--textNormal);
+  padding-bottom: 3em;
   
  
   label{

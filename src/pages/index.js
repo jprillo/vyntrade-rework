@@ -1,7 +1,7 @@
 import React from "react"
 import { Helmet } from 'react-helmet'
 import Layout from '../components/layout2'
-import { Link, withAssetPrefix } from 'gatsby'
+import { Link} from 'gatsby'
 import background from '../images/hero-background.png'
 import wine from '../images/wine.png'
 import client from '../images/clients.jpg'
@@ -26,25 +26,30 @@ export default function Home() {
 
   
 
-    <div className="about" >
+    <div className="about align-center" >
       <div className="about-image" style={{overflow: "hidden"}}>
         <img  height="100%" src={wine} alt="about us"/>
       </div>
       <div className="about-description">
         <h3>About Us</h3>
         <p style={{marginBottom: "2em"}}>VYNTRADE was founded in 2018 to offer consulting to Wine & Spirit Industry Companies.​</p>
-       <Link className= "primary-button" to ="/about">Learn More</Link>
+       <Link  className= "primary-button" to ="/about">Learn More</Link>
       </div>
       </div>
 
       <div className="align-center about-description" style={{backgroundColor: "#9B1919"}}>
         <h3 style={{color: "white"}}>Portfolio</h3>
-        <Link className= "primary-button" to ="/portfolio">Learn More</Link>
+        <div className="index-portfolio">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <Link className= "secondary-button" to ="/portfolio">Learn More</Link>
       </div>
 
-      <div className="align-center about-description" style={{paddingTop: "25vh", height: "60vh", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center", backgroundImage: "url(" + client + ")", }}>
-    
-        <Link className= "primary-button"  to ="/clients">Our Clients</Link>
+      <div className="align-center about-description" style={{paddingTop: "22vh", height: "60vh", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center", backgroundImage: "url(" + client + ")", }}>
+    <h3>Our Client's Success Stories</h3>
+        <Link className= "primary-button"  to ="/clients">Learn More</Link>
       </div>
    
 

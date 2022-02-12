@@ -135,7 +135,7 @@ margin-left: 25px;
       color: darkslategrey;
   }
   &:hover {
-    color: $hover-color;
+    color: $secondary-color;
   }
   &:active {
     color: $active-color;
@@ -174,7 +174,7 @@ margin-left: 25px;
       text-transform: uppercase;
   }
   &:hover {
-    color: $secondary-color;
+    color: $primary-color;
    
   }
   &:active {
