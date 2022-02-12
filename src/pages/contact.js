@@ -3,6 +3,7 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../components/layout2'
+import { Helmet } from 'react-helmet'
 
 import "../style/main.scss"
 
@@ -39,8 +40,13 @@ export default class Index extends React.Component {
 
   render() {
     return (
+      
       <Layout>
-
+ <Helmet>
+        <title>Vyntrade  Contact</title>
+        <meta name="description" content="VYNTRADE was founded in 2018 to offer consulting to Wine & Spirit Industry Companies.​" />
+        <meta name="theme-color" content="black" />
+      </Helmet>
 
 
 
@@ -127,9 +133,13 @@ export default class Index extends React.Component {
                 </div><br/>
 
                 <div>
-                <p>Dan Nelson</p> 
-                <p>Cell: +1 (813) 335 1295</p>
-                <p>Email: dnelson@vyntrade.com</p>
+                
+
+
+
+                <p>Steven M. Rowland</p> 
+                <p>Cell: + 1 (240) 994 7565</p>
+                <p>Email: srowland@vyntrade.com</p>
                 </div>
      
 

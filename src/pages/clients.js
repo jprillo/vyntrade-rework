@@ -1,9 +1,15 @@
 import React from "react"
 import Layout from '../components/layout2'
+import { Helmet } from 'react-helmet'
 
 export default function Clients() {
   
   return <div>
+     <Helmet>
+        <title>Vyntrade  Clients</title>
+        <meta name="description" content="VYNTRADE was founded in 2018 to offer consulting to Wine & Spirit Industry Companies.​" />
+        <meta name="theme-color" content="black" />
+      </Helmet>
       <Layout>
   <h1>Clients</h1>
   <div className="list">
@@ -27,13 +33,14 @@ export default function Clients() {
 <li>Kroger’s – Regional​</li>
 <li>Lidl – Regional​</li>
 <li>Publix – Regional​</li>
-<li>Safeway – Regional​</li>
-<li>Southeast Grocer’s – Regional</li>​
-<li>Spec’s Liquor - TX​</li>
-<li>Total Wine & More – National</li>​
-<li>Wegman’s – Regional​</li>
+<li>Safeway - Regional​</li>
+<li>Southeast Grocer's - Regional</li>
+<li>Spec’s Liquor - TX</li>
+<li>Total Wine & More - National</li>
+<li>Wegman’s - Regional</li>
 <li>Whole Foods – National​</li>
 </div>
+
 </div>
   </Layout>
   </div>

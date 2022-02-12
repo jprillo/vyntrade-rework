@@ -4,10 +4,16 @@ import wineone from '../images/Pres VynTrade + Molinos-07.jpg'
 import winetwo from '../images/Pres VynTrade + Molinos-08.jpg'
 import winethree from '../images/Pres VynTrade + Molinos-09.jpg'
 import winefour from '../images/Pres VynTrade + Molinos-10.jpg'
+import { Helmet } from 'react-helmet'
 
 export default function Portfolio() {
   
   return <div>
+      <Helmet>
+        <title>Vyntrade  Portfolio</title>
+        <meta name="description" content="VYNTRADE was founded in 2018 to offer consulting to Wine & Spirit Industry Companies.​" />
+        <meta name="theme-color" content="black" />
+      </Helmet>
       <Layout>
          <div >
 <h1>Portfolio</h1>

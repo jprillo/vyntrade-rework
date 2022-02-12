@@ -1,9 +1,15 @@
 import React from "react"
 import Layout from '../components/layout2'
+import { Helmet } from 'react-helmet'
 
 export default function Services() {
   
   return <div >
+     <Helmet>
+        <title>Vyntrade  Services</title>
+        <meta name="description" content="VYNTRADE was founded in 2018 to offer consulting to Wine & Spirit Industry Companies.​" />
+        <meta name="theme-color" content="black" />
+      </Helmet>
       <Layout>
         <div className="pad">
       <h1>Services</h1>

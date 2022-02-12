@@ -5,6 +5,11 @@ import { Link} from 'gatsby'
 import background from '../images/hero-background.png'
 import wine from '../images/wine.png'
 import client from '../images/clients.jpg'
+import p1 from '../images/p1.png'
+import p2 from '../images/p2.png'
+import p3 from '../images/p3.png'
+
+
 
 
 export default function Home() {
@@ -36,13 +41,13 @@ export default function Home() {
        <Link  className= "primary-button" to ="/about">Learn More</Link>
       </div>
       </div>
-
+     
       <div className="align-center about-description" style={{backgroundColor: "#9B1919"}}>
         <h3 style={{color: "white"}}>Portfolio</h3>
         <div className="index-portfolio">
-          <div></div>
-          <div></div>
-          <div></div>
+          <div><img width="100%" alt = "port" src={p1}/></div>
+          <div><img width="100%" alt = "port" src={p2}/></div>
+          <div><img width="100%" alt = "port" src={p3}/></div>
         </div>
         <Link className= "secondary-button" to ="/portfolio">Learn More</Link>
       </div>
