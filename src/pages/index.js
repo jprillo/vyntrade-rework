@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from 'react-helmet'
 import Layout from '../components/layout2'
 import { Link, withAssetPrefix } from 'gatsby'
 import background from '../images/hero-background.png'
@@ -9,6 +10,11 @@ import client from '../images/clients.jpg'
 export default function Home() {
   
   return <div>
+       <Helmet>
+        <title>Vyntrade  Vineyard to Trade</title>
+        <meta name="description" content="Create and Implement Profitable Business Opportunities in the US Wine Market for ​Wine Producers through Direct Sales Strategies to Key Retail Clients." />
+        <meta name="theme-color" content="black" />
+      </Helmet>
   <Layout>
     <div className="hero" style={{textAlign: "center", backgroundImage: "url(" + background + ")"}}>
    <h1 className="hero-head">VINEYARD TO TRADE</h1>
