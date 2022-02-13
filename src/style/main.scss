@@ -58,10 +58,10 @@ body.dark {
   flex-direction: column;
   padding: 2em;
   div{
-    height: 150px;
-    background: black;
-    margin: 2em 0;
     width: 100%;
+   
+    margin: 2em 0;
+    
   }
   @include breakpoint(md){  
     flex-direction: row;
