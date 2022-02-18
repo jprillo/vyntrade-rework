@@ -1,6 +1,7 @@
 import React from "react"
 import { Helmet } from 'react-helmet'
 import Layout from '../components/layout2'
+import background from '../images/hero-background.png'
 
 export default function About() {
   
@@ -11,7 +12,8 @@ export default function About() {
         <meta name="theme-color" content="black" />
       </Helmet>
     <Layout>
-      <div className="pad">
+      <div className="pad2" style={{backgroundImage: "url(" + background + ")"}}>
+        <div className="page-container" >
  <h1>About</h1>
  <p>VYNTRADE was founded in 2018 to offer consulting to Wine & Spirit Industry Companies.​
 VYNTRADE has helped producers find the ‘Route to Market’ most appropriate for their business.​
@@ -21,7 +23,7 @@ VYNTRADE has evolved to offer a ‘Vineyard to Trade’ Direct Wine Sales Distri
 <br/>
 <br/>
 <br/>
- <h2 style={{textAlign: "left"}}>BACKGROUND​</h2>
+ <h2 style={{textAlign: "left"}}>FOUNDERS​</h2>
  <p>Daniel A Nelson</p>
  <p>President & CEO – VYNTRADE LLC​</p>
  <br/>
@@ -32,7 +34,7 @@ VYNTRADE has evolved to offer a ‘Vineyard to Trade’ Direct Wine Sales Distri
  </p><br/><p>Dan then worked for several California wineries as East Coast Manager and National Sales Manager including EOS Estate Winery, Norman Vineyards and Castoro Cellars.​
  Dan has over 30 years experience in brand marketing and national sales.​
  </p>
-
+ </div>
  </div>
   </Layout>
     </div>

@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from '../components/layout2'
 import { Helmet } from 'react-helmet'
+import background from '../images/hero-background.png'
 
 export default function Clients() {
   
@@ -11,6 +12,8 @@ export default function Clients() {
         <meta name="theme-color" content="black" />
       </Helmet>
       <Layout>
+      <div className="pad2" style={{backgroundImage: "url(" + background + ")"}}>
+          <div className="page-container">
   <h1>Clients</h1>
   <div className="list">
 <div >
@@ -41,6 +44,8 @@ export default function Clients() {
 <li>Whole Foods – National​</li>
 </div>
 
+</div>
+</div>
 </div>
   </Layout>
   </div>

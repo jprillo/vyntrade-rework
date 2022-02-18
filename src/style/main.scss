@@ -178,12 +178,12 @@ li{
     justify-content: center;
     flex-direction: row;
     height: 70vh;
-    padding: 1em 10%;
+    padding: 1em 5%;
     li{
       font-size: 20px;
     }
     div{
-      padding: 0 5%;
+      padding: 0 5% 0 0 ;
     }
   }
 }
@@ -201,6 +201,15 @@ li{
   padding: 0 10% 5%;
   @include breakpoint(md){
     padding: 0 20% 5%;
+  }
+}
+
+.pad2{
+  padding: 17vh 5% 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @include breakpoint(md){
+    padding: 20vh 20% 5%;
   }
 }
  .align-center{

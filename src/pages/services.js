@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from '../components/layout2'
 import { Helmet } from 'react-helmet'
+import background from '../images/hero-background.png'
 
 export default function Services() {
   
@@ -11,8 +12,9 @@ export default function Services() {
         <meta name="theme-color" content="black" />
       </Helmet>
       <Layout>
-        <div className="pad">
-      <h1>Services</h1>
+        <div className="pad2" style={{ backgroundImage: "url(" + background + ")"}}>
+          <div className="page-container">
+          <h1>Services</h1>
 <p>We provide complete wine solution and distribution/marketing platform.</p><br/>
 <div className="service-list">
 <ul>
@@ -27,9 +29,11 @@ additional Distribution Centers in Major States.</li><br/>
 efﬁciency and develop Economies of Scale, Branding practices and Synergies.
 We work closely with our clients to develop customized wine programs,
 premium brands, speciﬁc wine brand concept or curated listings.</li><br/>
-  
+  <li>Provide a Roadmap and timeline to bringing your Label to market.</li><br/>
 </ul>
 </div>
+          </div>
+
 </div>
   </Layout>
   </div>
