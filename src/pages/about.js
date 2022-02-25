@@ -34,6 +34,24 @@ VYNTRADE has evolved to offer a ‘Vineyard to Trade’ Direct Wine Sales Distri
  </p><br/><p>Dan then worked for several California wineries as East Coast Manager and National Sales Manager including EOS Estate Winery, Norman Vineyards and Castoro Cellars.​
  Dan has over 30 years experience in brand marketing and national sales.​
  </p>
+
+ <br/>
+<br/>
+  <p>Steven M Rowland</p>
+ <p>Founder and Managing Director– VYNTRADE LLC</p>
+ <br/>
+<br/>
+ <p>
+ Steve started in the Adult Beverage Industry by working as a Hotel Food and Beverage Director with Omni and Marriott. He then moved to the distributor side of the business working for Broudy-Kantor and Forman Brothers (R-NDC)​
+ </p><br/><p>​
+
+He then moved to the supplier side by working for Terlato Wines, Pasternak (Chateau Lafite), Billington Wines and finally Vintners Alliance, an InVivo Wine Company. where he was National Accounts Manager, National Sales Manager and Managing Director.
+ </p><br/><p>Steve has traveled extensively throughout Europe, South America and the United States, working closely with the winemaking teams to develop, successful private label and Vine to Wine Brands that are sold in the US.​
+
+​
+
+Steve has over 30 years experience in brand marketing and National sales.​
+ </p>
  </div>
  </div>
   </Layout>
